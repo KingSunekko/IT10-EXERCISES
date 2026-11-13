@@ -1,0 +1,95 @@
+body {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 75px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background: pink;
+    border-color: palevioletred;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.bio {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.box {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    line-height: 2;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn-fb {
+    background-color: blue;
+    border-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.btn-fb:hover {
+    background-color: rgb(4, 4, 106);
+    color: white;
+}
+
+.btn-instagram {
+    background-color: rgb(254, 45, 80);
+    border-color: rgb(252, 25, 63);
+    color: white;
+}
+
+.btn-instagram:hover {
+    background-color: rgb(250, 126, 146);
+    color: white;
+}
+
+.btn-tiktok {
+    background-color: black;
+    border-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.btn-tiktok:hover {
+    background-color: rgb(42, 42, 42);
+    color: rgb(208, 199, 199);
+}
+
+#aqua {
+    color: aqua;
+}
+
+#red {
+    color: red;
+}
+
+#purple {
+    color: purple;
+}
+
+#yellow {
+    color: rgb(238, 255, 0);
+}
