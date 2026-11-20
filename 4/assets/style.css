@@ -1,0 +1,118 @@
+:root {
+    --maroon: #801b1b;
+    --gold: #f4c430;
+    --text: #282321;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 2rem 1rem;
+    background: #f5f3ef;
+    color: var(--text);
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+main {
+    max-width: 40rem;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid #d8d1c8;
+    border-radius: 12px;
+    box-shadow: 0 6px 24px rgb(55 30 20 / 8%);
+}
+
+.school-header {
+    padding: 1.5rem clamp(1.25rem, 5vw, 2.5rem);
+    background: var(--maroon);
+    color: white;
+    border-bottom: 5px solid var(--gold);
+    border-radius: 11px 11px 0 0;
+}
+
+.school-name {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: clamp(1.5rem, 5vw, 2.2rem);
+    line-height: 1.2;
+}
+
+.campus-name {
+    margin: 0.4rem 0 0;
+    color: var(--gold);
+    font-size: 0.85rem;
+    font-weight: bold;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+form {
+    padding: 1.75rem clamp(1.25rem, 5vw, 2.5rem) 2rem;
+}
+
+h1 {
+    margin: 0;
+    color: var(--maroon);
+    font-size: clamp(1.4rem, 4vw, 1.8rem);
+    line-height: 1.25;
+}
+
+.form-description {
+    margin: 0.4rem 0 1.5rem;
+    color: #5e5550;
+}
+
+.field {
+    margin-bottom: 1.2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 0.7rem;
+    background: white;
+    color: var(--text);
+    border: 1px solid #817771;
+    border-radius: 5px;
+    font: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background: var(--maroon);
+    color: white;
+    border: 1px solid var(--maroon);
+    border-radius: 5px;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #641414;
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--maroon);
+    outline-offset: 3px;
+}

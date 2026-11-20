@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form | UM Digos College</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <main>
+        <header class="school-header">
+            <p class="school-name">University of Mindanao</p>
+            <p class="campus-name">Digos College</p>
+        </header>
+        <form method="get">
+            <h1>Student Registration Form</h1>
+            <p class="form-description">
+                Practice registering for a school club.
+            </p>
+
+            <div class="field">
+                <label for="student-name">Name (required)</label>
+                <input type="text" id="student-name" autocomplete="name" required>
+            </div>
+
+            <div class="field">
+                <label for="student-email">Email (required)</label>
+                <input type="email" id="student-email" autocomplete="email" required>
+            </div>
+
+            <div class="field">
+                <label for="course">Course (required)</label>
+                <select id="course" required>
+                    <option value="" disabled selected>Select your course</option>
+
+                    <optgroup label="Computing and Engineering">
+                        <option>Bachelor of Science in Information Technology</option>
+                        <option>Bachelor of Science in Computer Engineering</option>
+                    </optgroup>
+
+                    <optgroup label="Criminology">
+                        <option>Bachelor of Science in Criminology</option>
+                    </optgroup>
+
+                    <optgroup label="Business and Tourism">
+                        <option>BSBA – Marketing Management</option>
+                        <option>BSBA – Financial Management</option>
+                        <option>BSBA – Human Resource Management</option>
+                        <option>Bachelor of Science in Tourism Management</option>
+                    </optgroup>
+
+                    <optgroup label="Department of Teacher Education">
+                        <option>Bachelor of Elementary Education (BEEd)</option>
+                        <option>BSNEd – Elementary School Teaching</option>
+                        <option>BSEd – Values Education</option>
+                        <option>Bachelor of Physical Education</option>
+                        <option>BSEd – Science</option>
+                        <option>BSEd – English</option>
+                        <option>BSEd – Filipino</option>
+                        <option>BSEd – Social Studies</option>
+                        <option>BSEd – Mathematics</option>
+                        <option>BTVTEd – Food &amp; Service Management</option>
+                        <option>BTVTEd – Automotive Technology</option>
+                    </optgroup>
+
+                    <optgroup label="Department of Arts and Sciences">
+                        <option>Bachelor of Arts in Communication</option>
+                        <option>Bachelor of Science in Social Work</option>
+                        <option>Bachelor of Science in Psychology</option>
+                        <option>Bachelor of Arts in Political Science</option>
+                    </optgroup>
+
+                    <optgroup label="Department of Accounting Education">
+                        <option>Bachelor of Science in Accountancy</option>
+                        <option>Bachelor of Science in Management Accounting</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="reason">
+                    Why do you want to join the school club? (optional)
+                </label>
+                <textarea id="reason" rows="4"></textarea>
+            </div>
+
+            <button type="submit">Submit registration</button>
+        </form>
+    </main>
+</body>
+
+</html>
